@@ -1,5 +1,4 @@
 # vins_noROS
-[ ![Build Status](doc/README-English-yellow.svg) ](README_EN.md)
 
 基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。该代码支持 Ubuntu or Mac OS。
 
