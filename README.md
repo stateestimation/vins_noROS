@@ -1,11 +1,7 @@
-# Vins Course
+# vins_noROS
 [ ![Build Status](doc/README-English-yellow.svg) ](README_EN.md)
 
-**作者**：贺一家，高翔，崔华坤，赵松
-
-**描述**：
-这是一个用于[深蓝学院](<http://www.shenlanxueyuan.com/>)教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
-该代码支持 Ubuntu or Mac OS.
+基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。该代码支持 Ubuntu or Mac OS。
 
 ### 安装依赖项：
 
@@ -43,15 +39,8 @@ cd bin
 ```
 ![vins](doc/vins.gif)
 
-#### 3. VINs-Mono on Simulation Dataset (project homework)
 
-you can use this code to generate vio data.
-
-```c++
-https://github.com/HeYijia/vio_data_simulation
-```
-
-#### 4. Validation Results
+#### 3. Validation Results
 [evo package](https://github.com/MichaelGrupp/evo)
 ```c++
 evo_ape euroc euroc_mh05_groundtruth.csv pose_output.txt -a -p
@@ -63,11 +52,4 @@ evo_ape euroc euroc_mh05_groundtruth.csv pose_output.txt -a -p
 
 The source code is released under GPLv3 license.
 
-We are still working on improving the code reliability. For any technical issues, please contact Yijia He <heyijia_2013@163.com> , Xiang Gao <https://github.com/gaoxiang12> or Huakun Cui<https://github.com/StevenCui>.
-
-For commercial inquiries, please contact Song Zhao <zhaosong@shenlanxueyuan.com>
-
-### 感谢
-
-我们使用了港科大沈老师组的 [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) 作为基础代码，非常感谢该组的工作。
 
